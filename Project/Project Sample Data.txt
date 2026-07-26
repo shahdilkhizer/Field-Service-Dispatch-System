@@ -1,0 +1,73 @@
+users.csv
+=========
+1,Admin User,admin@fieldservice.com,admin123,admin
+2,John Smith,john@tech.com,pass123,technician
+3,Jane Doe,jane@tech.com,pass456,technician
+4,Michael Chang,michael@tech.com,pass789,technician
+5,Dispatcher One,dispatch@fieldservice.com,disp123,dispatcher
+
+customers.csv
+=============
+1,ABC Corp,Alice Johnson,alice@abccorp.com,555-0101
+2,XYZ Ltd,Bob Williams,bob@xyz.com,555-0102
+3,Smith & Sons,Carol Smith,carol@smith.com,555-0103
+4,Metro Hospital,David Miller,david@metrohosp.com,555-0104
+5,,Emma Watson,emma@watson.com,555-0105
+
+skills.csv
+==========
+1,Plumbing,5
+2,Electrical,4
+3,HVAC,5
+4,Carpentry,3
+5,General Maintenance,2
+6,Solar Power Systems,4
+7,Network Cabling,3
+
+assets.csv
+==========
+1,Boiler Model X
+2,Air Conditioner Pro
+3,Electrical Panel 3-Phase
+4,Plumbing Pipe System
+5,Commercial Furnace
+6,Solar Inverter 5000W
+7,Server Rack Air Cooler
+8,Water Filtration Plant
+9,Backup Diesel Generator
+10,Elevator Control Module
+
+workorders.csv
+==============
+1,1,1,High,Assigned,1
+2,1,2,Medium,Assigned,2
+3,2,3,High,Assigned,2;7
+4,3,5,Medium,Assigned,3
+5,4,7,High,Assigned,3;5
+6,4,6,High,Pending,2;6
+7,2,3,High,Pending,2;7
+8,1,9,High,Pending,2
+9,3,5,Medium,Pending,3
+10,5,2,Medium,Pending,3;5
+11,2,8,Medium,Pending,1;5
+12,4,10,Medium,Pending,2;5
+13,2,4,Low,Pending,1;5
+14,3,8,Low,Pending,1
+15,5,1,Low,Pending,1;5
+16,1,1,Low,Completed,1
+17,3,4,Low,Completed,1;5
+18,4,9,Low,Completed,2
+
+technicians.csv
+===============
+1,2,1;2;5,1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+2,3,1;3;5,1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+3,4,2;6;7,1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+
+appointments.csv
+================
+1,1,1,0
+2,2,1,1
+3,3,3,0
+4,4,2,0
+5,5,2,1
